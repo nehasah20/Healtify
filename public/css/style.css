@@ -1,0 +1,417 @@
+/*General*/
+
+.txt-small {
+    font-size: 15px;
+    line-height: 10px;
+    vertical-align: middle;
+}
+
+.homePage {
+    display: block;
+    height: 1000px;
+    padding-top: 170px;
+    background-color: #d6e5ff;
+}
+
+
+/*Navbar*/
+
+nav {
+    background-color: #046389;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav .glyphicon {
+    color: red;
+}
+
+nav .glyphicon font {
+    color: white;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+.navbar-text .glyphicon {
+    color: white;
+}
+
+.root.container {
+    width: 100%;
+}
+
+
+/*Side Bar Nav*/
+
+.side-nav {
+    padding: 0;
+}
+
+.side-nav .list-group-item {
+    background-color: #cbe3ed;
+    color: #046389;
+}
+
+.side-nav .glyphicon {
+    margin-right: 10px;
+}
+
+.side-content {
+    padding: 0;
+}
+
+.side-nav a.list-group-item:hover, .side-nav a.list-group-item:focus {
+    background-color: #046389;
+    color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    .side-nav {
+        font-size: 16px;
+    }
+    .side-nav .list-group-item {
+        border-radius: 0.25rem;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .side-nav .list-group-item {
+        border: 0;
+    }
+    .side-nav .list-group-item.active, .side-nav .list-group-item.active:focus, .side-nav .list-group-item.active:hover {
+        background-color: #046389;
+        color: #fff;
+    }
+}
+
+
+/*Widgets*/
+
+.widget-items>div {
+    padding: 0 15px;
+}
+
+.widget-items .h1 {
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.widget-items .h1 span {
+    color: #b0b3b7;
+}
+
+.widget-items .icon {
+    max-width: 50%;
+}
+
+.widget-items .icon.big {
+    max-width: 80%;
+}
+
+.widget {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0px 2px 25px rgba(0, 0, 0, .25);
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, .25);
+    float: none;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+.widget img {
+    max-height: 150px;
+    margin: 0 auto;
+}
+
+.widget .panel-heading {
+    font-weight: 400;
+}
+
+
+/*Activity*/
+
+.activity .panel-body>* {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.table {
+    margin: 0 auto;
+    max-width: 833px;
+}
+
+
+/*Footer*/
+
+#footer {
+    padding: 20px 20px 10px;
+    margin-top: 20px;
+    background-color: #046389;
+    color: #fff;
+}
+
+.demo-content {
+    padding: 25px;
+    font-size: 18px;
+    min-height: 100px;
+    background: #D9EBFF;
+    margin: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    overflow: auto;
+}
+
+.demo-content2 {
+    padding: 25px;
+    font-size: 18px;
+    min-height: 500px;
+    background: #D9EBFF;
+    margin-left: 65px;
+    margin-top: 20px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.demo-content.bg-alt {
+    background: #abb1b8;
+}
+
+
+/* CSS for Input Boxes (ib) */
+
+.margins-ib {
+    margin-top: 10px;
+}
+
+.padding-ib {
+    padding: 10px
+}
+
+.formDiv {
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+#input {
+    width: 40%;
+    margin-left: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.add-Background {
+    background: #ffffff url("https://www.souqalmal.com/financial-education/ae-en/uploads/sites/8/2016/05/Doctor-holding-a-stethoscope-in-his-hands.jpg") no-repeat center;
+    height: 700px;
+}
+
+
+/*    --------------------------------------------------
+    :: Login Section
+	-------------------------------------------------- */
+
+#login {
+    padding-top: 50px
+}
+
+#login .form-wrap {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#login h1 {
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#login .form-group {
+    margin-bottom: 25px;
+}
+
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#login .btn.btn-custom {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#login .forget {
+    font-size: 13px;
+    text-align: center;
+    display: block;
+}
+
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+
+.form-control {
+    color: #212121;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.btn-custom:hover, .btn-custom:focus {
+    color: #fff;
+}
+
+.react-calendar-heatmap .color-scale-1 {
+    fill: #d6e685;
+}
+
+.react-calendar-heatmap .color-scale-2 {
+    fill: #8cc665;
+}
+
+.react-calendar-heatmap .color-scale-3 {
+    fill: #44a340;
+}
+
+.react-calendar-heatmap .color-scale-4 {
+    fill: #1e6823;
+}
+
+
+/*Pagination*/
+
+.pagination {
+    display: block;
+    text-align: center;
+}
+
+.pagination>li {
+    display: inline-block;
+}
+
+
+/*Home Page*/
+
+.cloudIntroDiv {
+    color: white;
+    width: 100%;
+    height: 600px;
+    background-image: url("/images/banner.jpg");
+    background-size: cover;
+}
+
+.cloudIntroDiv h1 {
+    font-size: 85px;
+}
+
+.cloudIntroDiv h4 {
+    font-size: 30px;
+}
+
+.multiDeviceSupportDiv {
+    height: 600px;
+    margin: 0;
+}
+
+.multiDeviceSupportDiv.row {
+    margin: 0;
+}
+
+.multiDeviceSupportDiv h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.multiDeviceSupportDiv.parallex1 {
+    color: white;
+    background: url("/images/p1.jpg") no-repeat fixed center center / cover;
+}
+
+.multiDeviceSupportDiv.parallex2 {
+    color: white;
+    background: url("/images/healthy-life.jpg") no-repeat fixed center center / cover;
+}
+
+.multiDeviceSupportDiv.parallex3 {
+    color: black;
+    background: url("/images/graph.jpg") no-repeat fixed center center / cover;
+}
+
+.landinNav {
+    background-color: #046389;
+}
+
+.landinNav .brand-logo i {
+    color: red;
+    margin-left: 20px;
+}
+
+.aboutUsDiv {
+    padding: 50px 0;
+}
+
+.aboutUsDiv img {
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+.ios {
+    padding: 50px 0;
+}
+
+
+/*.page-footer*/
+
+.landing-footer.page-footer {
+    background-color: #046389;
+}
